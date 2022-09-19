@@ -12,6 +12,8 @@ import { createStackNavigator } from "@react-navigation/stack";
 
 import { AuthProvider } from "./providers/AuthProvider";
 import { TasksProvider } from "./providers/TasksProvider";
+import { Logout } from "./components/Logout";
+
 
 import type {Node} from 'react';
 import {
@@ -33,6 +35,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import { WelcomeView } from "./views/WelcomeView";
+import { ProjectsView } from "./views/ProjectsView";
 
 /* $FlowFixMe[missing-local-annot] The type annotation(s) required by Flow's
  * LTI update could not be added via codemod */
